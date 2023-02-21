@@ -57,7 +57,6 @@ The problem with p-Creode installation on a Windows machine is with the python-i
 ```python   
 pip install pycairo
 pip install igraph
-pip install scanpy
 ```
 
 3. Install pcreode from github      
