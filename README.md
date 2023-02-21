@@ -59,6 +59,7 @@ The problem with p-Creode installation on a Windows machine is with the python-i
 ```python   
 pip install pycairo
 pip install igraph
+pip install scanpy
 ```
 
 4. Install pcreode from github      
@@ -73,6 +74,8 @@ If you are having issues with igraph plotting of graphs please try:
 
 ```
 conda install -c conda-forge python-igraph
+pip install pycairo‑1.18.1‑cp37‑cp37m‑win_amd64.whl
+pip install python_igraph‑0.7.1.post6‑cp37‑cp37m‑win_amd64.whl
 ```
 
 You will still need to manually download the [jupyter notebook](https://github.com/KenLauLab/pCreode/blob/master/notebooks/pCreode_tutorial.ipynb) and example [data file](https://github.com/KenLauLab/pCreode/blob/master/data/Myeloid_Raw_Normalized_Transformed.h5ad) from the folders above to be able to run the tutorial.
