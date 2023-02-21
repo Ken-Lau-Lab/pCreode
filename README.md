@@ -52,9 +52,7 @@ The problem with p-Creode installation on a Windows machine is with the python-i
 
 1. Install Anaconda
 
-2. Download the user compile wheels of 2 packages (download the version as appropriate to your Python install) from this [link](http://www.lfd.uci.edu/~gohlke/pythonlibs/), or follow these direct links to the necessary packages: [pyCairo](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pycairo) and [python-igraph](http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-igraph)
-
-3. In Anaconda prompt, go to the directory where the whls are downloaded and install them:  
+2. Install the following packages:
             
 ```python   
 pip install pycairo
@@ -62,7 +60,7 @@ pip install igraph
 pip install scanpy
 ```
 
-4. Install pcreode from github      
+3. Install pcreode from github      
 
 ```
 git clone https://github.com/Ken-Lau-Lab/pCreode
@@ -72,10 +70,17 @@ pip install .
 
 If you are having issues with igraph plotting of graphs please try:
 
+Download the user compile wheels of 2 packages (download the version as appropriate to your Python install) from this [link](http://www.lfd.uci.edu/~gohlke/pythonlibs/), or follow these direct links to the necessary packages: [pyCairo](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pycairo) and [python-igraph](http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-igraph)
+
+In Anaconda prompt, go to the directory where the whls are downloaded and install them:  
+
 ```
-conda install -c conda-forge python-igraph
 pip install pycairo‑1.18.1‑cp37‑cp37m‑win_amd64.whl
 pip install python_igraph‑0.7.1.post6‑cp37‑cp37m‑win_amd64.whl
+```
+or
+```
+conda install -c conda-forge python-igraph
 ```
 
 You will still need to manually download the [jupyter notebook](https://github.com/KenLauLab/pCreode/blob/master/notebooks/pCreode_tutorial.ipynb) and example [data file](https://github.com/KenLauLab/pCreode/blob/master/data/Myeloid_Raw_Normalized_Transformed.h5ad) from the folders above to be able to run the tutorial.
