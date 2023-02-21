@@ -17,7 +17,7 @@ There are three ways to install p-Creode with Mac/Linux operating systems.
 
 1. Install from github
 ```python
-git clone git://github.com/Ken-Lau-Lab/pCreode
+git clone https://github.com/Ken-Lau-Lab/pCreode
 cd pCreode
 sudo pip install .
 ```
@@ -34,7 +34,7 @@ Homebrew and anaconda install courtesy of Dan Skelly.
 3. Install through brew and github, and generate a contained conda environment for pcreode 
 ```python
 brew install igraph
-git clone git://github.com/Ken-Lau-Lab/pCreode
+git clone https://github.com/Ken-Lau-Lab/pCreode
 cd pCreode
 conda create -n pcreode python=3.7 numpy pandas matplotlib python-igraph jupyter cython
 source activate pcreode
@@ -64,7 +64,7 @@ pip install igraph
 4. Install pcreode from github      
 
 ```
-git clone git://github.com/Ken-Lau-Lab/pCreode
+git clone https://github.com/Ken-Lau-Lab/pCreode
 cd pCreode
 pip install .
 ```
