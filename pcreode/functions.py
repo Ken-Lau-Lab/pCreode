@@ -20,6 +20,7 @@ import pandas as pd
 import igraph as _igraph
 import matplotlib.pyplot as _plt
 import random
+import sys
 from igraph import *
 from sklearn.metrics import pairwise_distances
 from sklearn.cluster import KMeans as _KMeans
